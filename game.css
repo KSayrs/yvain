@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+}
+
+div.scroll {
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    overflow: hidden;
+    margin-bottom: 80px;
+    position: absolute;
+    /*background-color: darkslateblue;*/
+    background-color: #1a1a1a;
+}
+
+div.pscroll {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+div.pop-up {
+    padding: 10px;
+    width: 20%;
+    height: 30%;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: absolute;
+    background-color: burlywood;
+    border: 10px solid #795500;
+    box-shadow: 1px 1px 10px 1px black inset;
+    text-align: center;
+    color: black;
+}
+
+div.poi {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Merienda", serif;
+    position: relative;
+    z-index: 43;
+}
+
+table {
+    /* border: 1px solid white; */
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    position: relative;
+}
+
+table.traits {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Merienda", serif;
+}
+
+td.center {
+    text-align: center;
+    font-size: 20px;
+}
+
+td.traits {  font-size: 20px;  }
+
+th {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Merienda", serif;
+}
+
+th.traits { font-size: 24px; }
+
+#game-container {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+#game{
+    width:800px;
+    height:800px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#loading {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    background-color: black;
+    color: #FFF;
+}

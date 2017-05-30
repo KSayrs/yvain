@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Files not used in the project
+sounds/horse-neigh.wav
+sounds/violent-storm.wav
+
+img/unused/
+
+js/test.js
+js/first.js
