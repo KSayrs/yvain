@@ -8,6 +8,8 @@ To play a live hosted version of this, click [here](http://katyanasayrs.com/yvai
 This is by far the largest project I've worked on in terms of sheer volume of code. I learned quite a bit while working
 on it, and if I were to work on it again, I would probably redo almost everything.
 
+This was created using the [CraftyJS](http://craftyjs.com/) framework.
+
 Last edited August 2016.
 
 ## Liscence
